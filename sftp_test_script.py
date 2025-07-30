@@ -19,12 +19,12 @@ try:
 
     print(f"Connected to SFTP server at {HOST}:{PORT} as {USERNAME}")
 
-    # Optional: list remote files
+    # list remote files (for debug purpose)
     print("Remote directory listing:")
     for item in sftp.listdir(REMOTE_DIR):
         print(f" - {item}")
 
-    # Loop through and upload each .txt file
+    # loop through and upload each .txt file
     uploaded_count = 0
     for filename in os.listdir(LOCAL_DIR):
         if filename.casefold().endswith(".txt"):

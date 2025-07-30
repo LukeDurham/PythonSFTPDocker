@@ -5,6 +5,11 @@ npm install paramiko
 
 Docker Desktop must be installed https://docs.docker.com/desktop/setup/install/windows-install/
 
+<!-- Setting up Source file -->
+
+the files in source all need to be .txt or .TXT extensions to be transferred correctly.
+Just place the .txt files into source for setup.
+
 open cmd prompt for docker setup.
 
 Docker terminal

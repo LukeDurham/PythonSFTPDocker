@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  sftp:
+    image: atmoz/sftp
+    container_name: mock_sftp
+    ports:
+      - "2222:22"
+    volumes:
+      - ./upload:/home/luke/upload
+    command: luke:admin:::upload

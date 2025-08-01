@@ -1,6 +1,6 @@
 <!-- PREREQUISITES FOR RUNNING Docker example -->
 
-open cmd prompt in vscode with cd in /sftp-docker-test
+open cmd prompt in vscode, cd in /sftp-docker-test
 npm install paramiko
 
 Docker Desktop must be installed https://docs.docker.com/desktop/setup/install/windows-install/

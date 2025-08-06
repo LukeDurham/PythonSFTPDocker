@@ -1,3 +1,5 @@
+This was meant to figure out how to get sftp established on an as400 server with python.
+
 <!-- PREREQUISITES FOR RUNNING Docker example -->
 
 open cmd prompt in vscode, cd in /sftp-docker-test
